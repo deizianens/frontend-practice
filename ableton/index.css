@@ -1,0 +1,44 @@
+:root {
+  --yellow: #fbffa7;
+  --orange: #ff764d;
+  --lightblue: #b1c5ff;
+  --blue: #0000ff;
+  --green: #b6ffc0;
+  --lilac: #d5b3ff;
+  --background: #f3f3f3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+}
+
+.page-container {
+  width: 80%;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
